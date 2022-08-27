@@ -79,7 +79,9 @@
 .button:disabled {
   cursor: auto;
 }
-
+.texts{
+ color: aqua;  
+}
 .main{
     background-color: black;
 }
