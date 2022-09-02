@@ -19,7 +19,18 @@
       >
         clear
       </button>
+      
+      <label for="search" id = 'label'>Search chapter</label>
+      <input type="text" id = 'search' name="search" placeholder="Enter the chapter" >
+      <button 
+      id="submit"
+      onclick="search()"
+
+      >
+        Find
+      </button>
       <ul class="texts"></ul>
+      <ul class="finds"></ul>
     </div>
     <div id="loading"></div>
     <script src="./script.js"></script>
